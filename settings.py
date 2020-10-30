@@ -43,7 +43,7 @@ class Settings():
         self.fleet_direction = 1
 
         # 记分
-        self.alien_points = 2
+        self.alien_points = 10
 
     def increase_speed(self):
         """提高速度设置和外星人点数"""

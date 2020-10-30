@@ -50,9 +50,6 @@ def run_game():
         timer += 1
         gf.check_events(pw_settings, screen, stats, sb, play_button, ship, aliens, bullets)
         if stats.game_active:
-            if timer == 10:
-                gf.create_fleet(pw_settings, screen, aliens)
-                timer = 1
             ship.update()
             gf.update_bullets(pw_settings, screen, stats, sb, ship, aliens, bullets)
             gf.update_aliens(pw_settings, screen, stats, sb, ship, aliens, bullets)
