@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="586cd145-1a3e-44c1-a970-7e37666614f1" name="Default Changelist" comment="删除无用项目">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1is4VJCWqtDAqFJ4xVmCJ16eOhf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="586cd145-1a3e-44c1-a970-7e37666614f1" name="Default Changelist" comment="" />
+      <created>1602682987190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602682987190</updated>
+    </task>
+    <task id="LOCAL-00001" summary="删除无用项目">
+      <created>1604035327655</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604035327655</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除无用项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除无用项目" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="556" y="353" key="#Notifications" timestamp="1604033727015">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="556" y="353" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1604033727015" />
+    <state x="708" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604036649343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604036649343" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604036584745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604036584745" />
+    <state x="795" y="297" key="FileChooserDialogImpl" timestamp="1602683051211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="795" y="297" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602683051211" />
+    <state width="267" height="230" key="Git.Branch.Popup" timestamp="1604046848558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="267" height="230" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604046848558" />
+    <state x="744" y="379" key="Github.CreateGistDialog" timestamp="1604036770297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="744" y="379" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604036770297" />
+    <state x="599" y="472" key="Github.ShareDialog" timestamp="1604046407479">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="599" y="472" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604046407479" />
+    <state x="604" y="198" key="SettingsEditor" timestamp="1604046339664">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="604" y="198" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604046339664" />
+    <state x="242" y="302" key="VCS.EditChangelistDialog" timestamp="1604036711419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="242" y="302" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604036711419" />
+    <state x="250" y="277" key="Vcs.Push.Dialog.v2" timestamp="1604035338689">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="250" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604035338689" />
+  </component>
+</project>
