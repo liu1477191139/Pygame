@@ -6,7 +6,7 @@ from bullet import Bullet
 from alien import Alien
 
 
-def check_keydown_events(event, pw_settings, screen, ship, bullets):
+def check_keydown_events(event, pw_settings, screen, ship, bullets,bullet_sound):
     """响应按键"""
 
     # 如果按下的是右箭头键，就将ship.moving_right设置为True，从而将飞船向右移动
@@ -21,7 +21,8 @@ def check_keydown_events(event, pw_settings, screen, ship, bullets):
 
     # 如果按下的是空格键，就开火
     elif event.key == pygame.K_SPACE:
-        fire_bullet(pw_settings, screen, ship, bullets)
+         bullet_sound.play()
+         fire_bullet(pw_settings, screen, ship, bullets)
 
     # 如果按下的是Q键，就退出
     elif event.key == pygame.K_q:
@@ -50,7 +51,7 @@ def check_keyup_events(event, ship):
         ship.moving_left = False
 
 
-def check_events(pw_settings, screen, stats, sb, play_button, ship, aliens, bullets):
+def check_events(pw_settings, screen, stats, sb, play_button, ship, aliens, bullets,bullet_sound):
     """响应按键和鼠标事件"""
 
     for event in pygame.event.get():
@@ -61,7 +62,7 @@ def check_events(pw_settings, screen, stats, sb, play_button, ship, aliens, bull
 
         # Pygame检测到KEYDOWN事件时作出响应
         if event.type == pygame.KEYDOWN:
-            check_keydown_events(event, pw_settings, screen, ship, bullets)
+            check_keydown_events(event, pw_settings, screen, ship, bullets,bullet_sound)
 
         # Pygame检测到KEYUP事件时作出响应
         elif event.type == pygame.KEYUP:
@@ -128,7 +129,7 @@ def update_screen(pw_settings, screen, stats, sb, ship, aliens, bullets, play_bu
     pygame.display.flip()
 
 
-def update_bullets(pw_settings, screen, stats, sb, ship, aliens, bullets):
+def update_bullets(pw_settings, screen, stats, sb, ship, aliens, bullets,explode_sound):
     """更新子弹的位置，并删除已消失的子弹"""
 
     # 更新子弹的位置
@@ -139,10 +140,10 @@ def update_bullets(pw_settings, screen, stats, sb, ship, aliens, bullets):
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
     # print(len(bullets))
-    check_bullet_alien_collisions(pw_settings, screen, stats, sb, aliens, bullets)
+    check_bullet_alien_collisions(pw_settings, screen, stats, sb, aliens, bullets,explode_sound)
 
 
-def check_bullet_alien_collisions(pw_settings, screen, stats, sb, aliens, bullets):
+def check_bullet_alien_collisions(pw_settings, screen, stats, sb, aliens, bullets,explode_sound):
     """响应子弹和外星人的碰撞"""
 
     # 删除发生碰撞的子弹和外星人,collisions为字典类型
@@ -150,6 +151,8 @@ def check_bullet_alien_collisions(pw_settings, screen, stats, sb, aliens, bullet
 
     # 如果字典存在，就将得分加上一个外星人值的点数
     if collisions:
+
+        explode_sound.play()
 
         # 遍历字典collisions，确保将消灭的每个外星人的点数都记入得分
         for aliens in collisions.values():

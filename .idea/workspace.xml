@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="586cd145-1a3e-44c1-a970-7e37666614f1" name="Default Changelist" comment="删除无用项目">
+      <change afterPath="$PROJECT_DIR$/sound/EXPLO6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sound/shot1.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plane_war.py" beforeDir="false" afterPath="$PROJECT_DIR$/plane_war.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +49,63 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="pyconsole" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\Pygame" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\Pygame\sound" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.plane_war">
+    <configuration name="game_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="game_stats" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_stats.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="plane_war" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Game" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,6 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plane_war.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -84,6 +140,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/settings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -96,11 +153,16 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.plane_war" />
+        <item itemvalue="Python.game_functions" />
+        <item itemvalue="Python.game_stats" />
         <item itemvalue="Python.settings" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="586cd145-1a3e-44c1-a970-7e37666614f1" name="Default Changelist" comment="" />
@@ -108,6 +170,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602682987190</updated>
+      <workItem from="1604063351066" duration="3546000" />
+      <workItem from="1604118469305" duration="3297000" />
+      <workItem from="1604121849520" duration="319000" />
+      <workItem from="1604122265424" duration="746000" />
+      <workItem from="1604127371271" duration="3377000" />
     </task>
     <task id="LOCAL-00001" summary="删除无用项目">
       <created>1604035327655</created>
@@ -119,19 +186,26 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="删除无用项目" />
     <option name="LAST_COMMIT_MESSAGE" value="删除无用项目" />
   </component>
@@ -140,17 +214,23 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="556" y="353" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1604033727015" />
-    <state x="708" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604036649343">
+    <state x="472" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604120300913">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="472" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1604120300913" />
+    <state x="708" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604036649343" />
+    <state x="554" y="113" key="CommitChangelistDialog2" timestamp="1604228920010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="708" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604036649343" />
+    <state x="554" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604228920010" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604036584745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604036584745" />
-    <state x="795" y="297" key="FileChooserDialogImpl" timestamp="1602683051211">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="530" y="191" key="FileChooserDialogImpl" timestamp="1604115593363">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="530" y="191" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604115593363" />
     <state x="795" y="297" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602683051211" />
     <state width="267" height="230" key="Git.Branch.Popup" timestamp="1604046848558">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -168,22 +248,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="704" y="210" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604047101896" />
-    <state width="1105" height="218" key="GridCell.Tab.0.bottom" timestamp="1604049857492">
+    <state width="1877" height="402" key="GridCell.Tab.0.bottom" timestamp="1604228726922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1105" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604049857492" />
-    <state width="1105" height="218" key="GridCell.Tab.0.center" timestamp="1604049857492">
+    <state width="1237" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604127340623" />
+    <state width="1877" height="402" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604228726922" />
+    <state width="1877" height="402" key="GridCell.Tab.0.center" timestamp="1604228726922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1105" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604049857492" />
-    <state width="1105" height="218" key="GridCell.Tab.0.left" timestamp="1604049857492">
+    <state width="1237" height="238" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604127340623" />
+    <state width="1877" height="402" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604228726922" />
+    <state width="1877" height="402" key="GridCell.Tab.0.left" timestamp="1604228726922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1105" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604049857492" />
-    <state width="1105" height="218" key="GridCell.Tab.0.right" timestamp="1604049857492">
+    <state width="1237" height="238" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604127340623" />
+    <state width="1877" height="402" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604228726922" />
+    <state width="1877" height="402" key="GridCell.Tab.0.right" timestamp="1604228726922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1105" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604049857492" />
+    <state width="1237" height="238" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604127340623" />
+    <state width="1877" height="402" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604228726922" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604047837324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -200,10 +284,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604047837324" />
-    <state x="413" y="207" key="SettingsEditor" timestamp="1604047914351">
+    <state x="413" y="207" key="SettingsEditor" timestamp="1604118248660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="413" y="207" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604047914351" />
+    <state x="413" y="207" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604118248660" />
     <state x="242" y="302" key="VCS.EditChangelistDialog" timestamp="1604036711419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -212,9 +296,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="250" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604035338689" />
+    <state x="0" y="0" width="631" height="680" key="find.popup" timestamp="1604116545400">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" width="631" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1604116545400" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604047903663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604047903663" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Pygame$game_stats.coverage" NAME="game_stats Coverage Results" MODIFIED="1604119871497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pygame$plane_war.coverage" NAME="plane_war Coverage Results" MODIFIED="1604228726910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pygame$game_functions.coverage" NAME="game_functions Coverage Results" MODIFIED="1604121907242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
